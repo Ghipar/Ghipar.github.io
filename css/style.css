@@ -1,0 +1,60 @@
+body {
+  min-height: 3000px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-image: url(../img/kir.jpg);
+  background-size: cover;
+  background-position: 0px 0px;
+  background-attachment: fixed;
+  color: rgb(245, 247, 246);
+  overflow: hidden;
+}
+.pkiri,
+.pkanan {
+  opacity: 0;
+  transform: translate(-50px, 0) rotate(15deg);
+  transition: 1s;
+}
+.pkanan {
+  transform: translate(50px, 0) rotate(-15deg);
+}
+.pkiri.pMuncul,
+.pkanan.pMuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+#project {
+  background-image: url(../img/to.jpg);
+  background-size: cover;
+  background-position: 0px 0px;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#galeri {
+  background-image: url(../img/star.jpg);
+  background-size: cover;
+  background-position: 0px -100px;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.item {
+  transition: 0.5s ease-in-out;
+}
+.item:hover {
+  filter: brightness(2) blur(2px);
+}
+.adadeh2 h2 {
+  color: rgb(238, 92, 92);
+  text-shadow: 0 1px 1px white;
+}
+
+.adadeh {
+  padding-top: 5rem;
+}
+
+.adadeh2 {
+  margin-top: -40px;
+}
